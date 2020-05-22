@@ -1,0 +1,69 @@
+ @media screen and (max-width: 550px){
+.topnav a:hover{
+    background-color: #fff;
+    color:black;
+    padding-left:0.1px;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+}
+
+.topnav a {
+    text-align: center;
+    float: none;
+}
+
+.topnav .welcome{
+    float:left;
+    font-size:20px;
+    text-align:center;
+    padding:20px 20px;
+    color:rgb(175, 243, 97);
+    margin-left:10%;
+}
+
+#page .left-part{
+    display:none;
+}
+
+.left-part, .right-part {   
+    width: 100%;
+    padding: 0;
+}
+.main_content .right-part{
+    width:100%;
+    padding:5%;
+}
+
+.main_content .right-part{
+    float:left;
+    width:96%;        
+}
+
+.introduction{
+    
+    display:inline-block;
+    grid-template-columns: 20% 50%;
+    grid-gap:15%;
+    grid-auto-rows: 15%;
+    margin-left:2%;
+    margin-right:100px;
+}
+
+.introduction > div {
+    
+    padding:1rem;
+}
+
+.introduction .personal img{
+    height:900%;
+    width:90%;
+    padding:10px auto;
+    border-radius: 40%;
+    margin-right:0;
+    margin-left:2%;
+} 
+
+} 
